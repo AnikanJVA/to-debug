@@ -20,7 +20,7 @@ public class Balance{ // this class is for the balance related computations
         return total;
     }
 
-    public ArrayList<Account> computeBalance(){ // this method computes the current balance of the accounts then returns an arraylist with a computed balance
+    public ArrayList<Account> computeBalance(){ // this method computes the current balance of the accounts then returns an arraylist containing the accounts with computed balance
         ; // unsa ang need para ma accesss ang methods sa login
         ArrayList<> accountList = .getAllAccounts();
         int currentBalance = 0;

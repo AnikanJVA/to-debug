@@ -90,11 +90,11 @@ public class Main{
         }
     
 
-    public static double getCurrentBalance(int accountNum){
-        ArrayList<Account> accountList = computeBalance();
+    public static double getCurrentBalance(int accountNum){ // this method returns the current balance of an account
+        ArrayList<Account> accountList = computeBalance(); // unsa ang kulang diri pa ma access ang computeBalance()
         int currentBalance = 0
-        for (account : accountList) {
-            if(account.getAccountNum() = accountNum){
+        for (account : accountList) { // tama ba ni ang for each?
+            if(account.getAccountNum() = accountNum){ // tama ba ang condition?
                 Currentbalance = account.getBalance()
             }
         }

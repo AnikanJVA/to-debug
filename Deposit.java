@@ -53,7 +53,7 @@ public class Deposit{ // kani nga class kay para sa tanan related sa deposit
                     // unsa ang parameter (dawaton sa method) para ma specify account
     public void showBalance(){ // this method shows the balance of an account
         ; // unsa ang dapat i-declare para ma gamit ang methods sa Balance nga class
-        ArrayList<Account> accountList = // unsa ang need para ma tawag ang method nga getAllAccounts() ni Login
+        ArrayList<Account> accountList = // unsa ang need para ma kuha ang arraylist nga naay accounts na computed na ang balance
 
         for (){ // unsa ang syntax para sa for each
             if (account. == accountNum) { // unsa ang need i-compare para ma tama ang condition
